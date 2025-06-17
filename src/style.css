@@ -155,7 +155,6 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
   width: 2.5em !important;
 }
 
@@ -188,7 +187,7 @@ button:focus {
 }
 
 .navbar-nav .nav-item a::after {
-  content: "";
+  content: '';
   position: relative;
   display: block;
   height: 5px;
@@ -364,7 +363,7 @@ button:focus {
 }
 
 .home-social-icons::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -614,6 +613,7 @@ button:focus {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
+  display: inline !important;
 }
 
 .resume-left {
@@ -674,7 +674,7 @@ button:focus {
 }
 
 .resume .resume-item::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 16px;
   height: 16px;
