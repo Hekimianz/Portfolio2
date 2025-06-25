@@ -73,7 +73,7 @@ function Projects() {
               title="Ribbit (Currently Building)"
               description="A full-featured Reddit clone with user authentication, built with a Node/Express backend, PostgreSQL, and Prisma for database management."
               ghLink="https://github.com/Hekimianz/ribbit"
-              demoLink="https://github.com/Hekimianz/ribbit"
+              demoLink="https://ribbit-ahg.netlify.app"
             />
           </Col>
 
