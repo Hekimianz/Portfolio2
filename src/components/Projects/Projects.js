@@ -25,7 +25,7 @@ function Projects() {
             <ProjectCard
               imgPath={thoughtSpill}
               isBlog={false}
-              title="Comet"
+              title="ThoughtSpill"
               description="Book blog with a decoupled architecture: a separate backend and two frontends—one public for reading posts and one private for admin management—highlighting flexible, modular development."
               ghLink="https://github.com/Hekimianz/thoughtSpill"
               demoLink="https://thoughtspill.netlify.app/"
