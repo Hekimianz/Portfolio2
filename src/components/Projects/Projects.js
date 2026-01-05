@@ -6,7 +6,7 @@ import thoughtSpill from '../../Assets/Projects/thoughtSpill.png';
 import comet from '../../Assets/Projects/comet.png';
 import findIt from '../../Assets/Projects/findIt.png';
 import windi from '../../Assets/Projects/windi.png';
-import ribbit from '../../Assets/Projects/ribbit.png';
+import kino from '../../Assets/Projects/kino.jpeg';
 import inventory from '../../Assets/Projects/inventory.png';
 
 function Projects() {
@@ -21,6 +21,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kino}
+              isBlog={false}
+              title="Kino"
+              description="Kino is a full-stack cinema management platform with a modular architecture, featuring a dedicated backend and a modern frontend to manage movies, showtimes, branches, and orders, designed for scalability and real-world production use."
+              ghLink="https://github.com/kino-henry-pf/kino-henry-pf"
+              demoLink="https://kino-henry-pf.vercel.app"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={thoughtSpill}
@@ -38,7 +48,7 @@ function Projects() {
               isBlog={false}
               title="Comet"
               description="A lightweight messaging app built with modern web technologies for fast, real-time communication. It features secure user authentication, one-on-one private chats, WebSocket-powered instant messaging, and a responsive, intuitive interface across devices."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              ghLink="https://github.com/Hekimianz/comet"
               demoLink="https://comet-messenger.netlify.app/"
             />
           </Col>
@@ -63,17 +73,6 @@ function Projects() {
               npm
               ghLink="https://github.com/Hekimianz/windi"
               demoLink="https://hekimianz.github.io/windi/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ribbit}
-              isBlog={false}
-              title="Ribbit (Currently Building)"
-              description="A full-featured Reddit clone with user authentication, built with a Node/Express backend, PostgreSQL, and Prisma for database management."
-              ghLink="https://github.com/Hekimianz/ribbit"
-              demoLink="https://ribbit-ahg.netlify.app"
             />
           </Col>
 
